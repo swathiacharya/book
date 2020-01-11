@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            #parentdiv{
+                display: flex;
+                /* so it wll adjust in the laptop mobile */
+                /* it will display horizontaly */
+                /* to have thflex wrap wil get inline */
+                flex-wrap: wrap;
+                justify-content: space-around;
+                /* justify-content:end space arount center space-evenly; */
+                /* to get equal space in the both side
+                 */
+
+                 /* to give equal space between the block  */
+                 align-items: center;
+                 
+            }
+            .divpro{
+                    /* display: inline-block; */
+                    width: 400px;
+                    height: 500px;
+                    background:lightblue;
+                    border: 1px #333333 solid;
+                    margin: 50px;
+                    text-align: center;
+                    padding: 30px;
+
+                }
+        </style>
+    </head>
+
+    <body>
+        <h1><center> BOOKS</center> </h1>
+            <div id="parentdiv">
+                    <div class="divpro" style="order:5; flex-grow:2"><img src="E:\webapp\10sec\pic.jpg" width="300px" height="400px"><br><br>beauty and beast<br><br>$10</div>
+                    <!-- <br> -->
+                    <div class="divpro" style="order:4; flex-grow:2"><img src="E:\webapp\10sec\pic1.jpg" width="300px" height="400px"><br><br>fire in forst<br><br>$20</div>
+                    <!-- <br> -->
+                    <div class="divpro" style="order:2; flex-grow:3"><img src="E:\webapp\10sec\pic2.jpg" width="300px" height="400px"><br><br>the girl sea gave the back<br><br>$35</div>
+                    <!-- <br> -->
+                    <div class="divpro" style="order:1; flex-grow:3"><img src="E:\webapp\10sec\pic3.jpg" width="300px" height="400px"><br><br>califonia girls<br><br>$15 <del>$30</del></div>
+                    
+                    <div class="divpro" style="order:3; flex-grow:3"><img src="E:\webapp\10sec\pic4.jpg" width="300px" height="400px"><br><br>lost in book<br><br>$60</div>
+                </div>
+    </body>
+</html>
